@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { AppThunk } from '../store';
+import { productsData } from '../data/products';
 
 interface Product {
   id: number;
@@ -34,22 +35,23 @@ const initialState: ProductsState = {
   error: null,
 };
 
- 
-
 export const fetchProducts = createAsyncThunk<ProductsResponse, { page: number, limit: number }>(
   'products/fetchProducts',
   async ( arg ) => {
     const { page, limit } = arg; 
 
-    const response = await fetch(`http://localhost:3000/products?page=${page}&limit=${limit}`);
+    await new Promise(resolve => setTimeout(resolve, 100));
+    return productsData
+
+    // const response = await fetch(`http://localhost:3000/products?page=${page}&limit=${limit}`);
     
-    console.log ('------------------------ ')
-    console.log (response)
-    console.log ('------------------------ ')
-    if (!response.ok) {
-      throw new Error('Failed to fetch products xD');
-    }
-    return await response.json() as ProductsResponse;
+    // console.log ('------------------------ ')
+    // console.log (response)
+    // console.log ('------------------------ ')
+    // if (!response.ok) {
+    //   throw new Error('Failed to fetch products xD');
+    // }
+    // return await response.json() as ProductsResponse;
   }
 );
 
