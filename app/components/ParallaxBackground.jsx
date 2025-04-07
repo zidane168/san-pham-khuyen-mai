@@ -3,7 +3,7 @@
 import { motion, useScroll } from 'framer-motion';
 
 export default function ParallaxBackground() {
-  const { scrollY } = useScroll();
+  const { scrollY  } = useScroll();
 
   return (
     <motion.div

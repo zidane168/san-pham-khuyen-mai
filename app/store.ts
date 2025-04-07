@@ -17,5 +17,8 @@ export type AppThunk<ReturnType = void> = ThunkAction<
   unknown,
   Action
 >;
+ 
+export type AppDispatch = AppStore['dispatch'];
+
 
 export const wrapper = createWrapper<AppStore>(makeStore);

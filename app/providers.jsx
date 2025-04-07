@@ -4,7 +4,9 @@ import { Provider } from 'react-redux';
 import { useRef } from 'react';
 import { makeStore } from './store';
 
-export function Providers({ children } : { children : any}) {
+// export function Providers({ children } : { children : any}) {
+
+export function Providers({ children }) {
   const storeRef = useRef();
   if (!storeRef.current) {
     storeRef.current = makeStore();

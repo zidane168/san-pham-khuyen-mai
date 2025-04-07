@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '@/app/store';
+import { AppDispatch } from '@/app/store';
 import { fetchProducts } from './features/productSlice';
 import { Product } from './types';
 import Image from 'next/image';
@@ -38,7 +38,7 @@ const VideoEmbed = ({ url }: { url: string }) => {
 
 export default function ProductsPage() {
   const dispatch = useDispatch<AppDispatch>();
-  const { items, status, error, pagination } = useSelector((state: RootState) => state.products);
+  const { items, status, error, pagination } = useSelector((state: any) => state.products);
   const [page, setPage] = useState(1);
   
   const initialLoadDone = useRef(false);
