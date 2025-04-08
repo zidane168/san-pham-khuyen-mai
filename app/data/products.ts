@@ -7,7 +7,7 @@ export const productsData = {
         {
             "id": 8,
             "categoryId": 1,
-            "videoLink": null,
+            "videoLink": "",
             "affiliateLink": "",
             "voucherLink": "https://shorten.asia/ZbgBF1Pn",
             "title": "Voucher Highlands giảm giá 50%",
