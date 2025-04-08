@@ -41,6 +41,10 @@ export const fetchProducts = createAsyncThunk<ProductsResponse, { page: number, 
     const { page, limit } = arg; 
 
     await new Promise(resolve => setTimeout(resolve, 100));
+
+    console.log ( '-------------' )
+    console.log (productsData)
+    console.log ( '-------------' )
     return productsData
 
     // const response = await fetch(`http://localhost:3000/products?page=${page}&limit=${limit}`);
