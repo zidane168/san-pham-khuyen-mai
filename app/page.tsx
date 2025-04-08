@@ -21,7 +21,7 @@ const VideoEmbed = ({ url }: { url: string }) => {
   if (!videoId) return <div>Invalid video URL</div>;
 
   return (
-    <div className="aspect-video w-full">
+    <div className="w-full aspect-video">
       <iframe
         width="100%"
         height="100%"
@@ -84,7 +84,7 @@ export default function ProductsPage() {
 
   return (
    
-    <div className="container mx-auto p-4 shadow-lg">
+    <div className="container p-4 mx-auto shadow-lg">
       <ParallaxBackground />
       <div className="relative h-[600px] mb-8">
           <Image
@@ -97,23 +97,25 @@ export default function ProductsPage() {
           /> 
       </div>
 
-      <div className="container mx-auto p-4">
-        <div className='bg-pink-700 rounded-lg  border p-2  text-white '>
-          <strong className="text-2xl font-bold mb-4  uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ ({pagination?.count || 0})</strong>
+      <div className="container p-4 mx-auto">
+        <div className='p-2 text-white bg-pink-700 border rounded-lg '>
+          <strong className="mb-4 text-2xl font-bold uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ ({pagination?.count || 0})</strong>
         </div>
     
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 shadow-lg">
+        <ul className="grid grid-cols-1 gap-4 shadow-lg md:grid-cols-2 lg:grid-cols-2">
           {
           items.map((product: Product, index: number) => (
-            <li key={ index } className=" p-4 rounded-lg ">
-              <div className='p-2 bg-blue-700 text-white mb-2 rounded-md shadow-xl/30'>
-                <strong className="text-xl font-semibold mb-2 uppercase">{product.title}</strong>
+            <li key={ index } className="p-4 rounded-lg ">
+              <div className='p-2 mb-2 text-white bg-blue-700 rounded-md shadow-xl/30'>
+                <strong className="mb-2 text-xl font-semibold uppercase">{product.title}</strong>
               </div>
               {/* <div 
-                className="text-gray-600 mb-4"
+                className="mb-4 text-gray-600"
                 dangerouslySetInnerHTML={{ __html: product.description }}
               /> */}
-              <div className="space-y-2 space-x-2">
+              <div className="space-x-2 space-y-2">
+
+
                 {product.videoLink && (
 
                   <VideoEmbed url={ product.videoLink } />
@@ -121,20 +123,27 @@ export default function ProductsPage() {
                   //   href={product.videoLink}
                   //   target="_blank"
                   //   rel="noopener noreferrer"
-                  //   className="text-blue-600 block"
+                  //   className="block text-blue-600"
                   // >
                   //   Watch Video
                   // </a>
                 )}
+
+                {
+                  !product.videoLink && product.description && ( 
+                    <div className='p-4 border-4 border-blue-800 rounded-lg shadow-2xl bg-amber-100' dangerouslySetInnerHTML = {{ __html: product.description }}   />
+                  )
+                } 
+
                 {product.affiliateLink && (
                  <a
                   href={product.affiliateLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform bg-gradient-to-r from-amber-500 to-red-500 rounded-xl shadow-lg hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
+                  className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-amber-500 to-red-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
                 >
                   {/* Animated border */}
-                  <span className="absolute inset-0 rounded-xl -z-10 bg-gradient-to-r from-amber-500 to-red-500 blur-sm group-hover:blur-md group-hover:opacity-75 transition-all duration-300"></span>
+                  <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-amber-500 to-red-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
                   
                   {/* Button content */}
                   <span className="relative tracking-wider">
@@ -164,10 +173,10 @@ export default function ProductsPage() {
                    href={product.voucherLink}
                    target="_blank"
                    rel="noopener noreferrer"
-                   className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform bg-gradient-to-r from-green-500 to-blue-500 rounded-xl shadow-lg hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
+                   className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-green-500 to-blue-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
                  >
                    {/* Animated border */}
-                   <span className="absolute inset-0 rounded-xl -z-10 bg-gradient-to-r from-green-500 to-blue-500 blur-sm group-hover:blur-md group-hover:opacity-75 transition-all duration-300"></span>
+                   <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-green-500 to-blue-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
                    
                    {/* Button content */}
                    <span className="relative tracking-wider">
@@ -198,16 +207,16 @@ export default function ProductsPage() {
 
         {status === 'loading' && (
           <div className="flex justify-center my-8">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-600"> </div>
+            <div className="w-8 h-8 border-b-2 border-gray-600 rounded-full animate-spin"> </div>
           </div>
         )}
 
         {status === 'failed' && (
-          <div className="text-red-500 text-center my-4">Error: {error}</div>
+          <div className="my-4 text-center text-red-500">Error: {error}</div>
         )}
 
         {pagination?.totalPage === page && items.length > 0 && (
-          <div className="text-center text-gray-500 mt-8">          
+          <div className="mt-8 text-center text-gray-500">          
             Đã hiển thị sản phẩm cuối cùng!
           </div>
         )}
