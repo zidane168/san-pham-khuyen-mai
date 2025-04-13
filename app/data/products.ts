@@ -4,6 +4,160 @@ export const productsData = {
             "totalPage": 1
     },
     "data": [
+
+        {
+            "id": 12,
+            "categoryId": 1,
+            "videoLink": "https://youtube.com/embed/u-5DeGPBAuQ",
+            "affiliateLink": "https://shorten.asia/k6cU4B3X",
+            "voucherLink": "",
+            "title": 'Bàn Học Thông Minh Cho Bé Từ 06-11 Tuổi H06 - Smart Study Desk For Children H06 - Tiện Ích Không Ngờ',
+            "description": "<p>Bàn Học Thông Minh Lunini 22+ Cho Bé Từ 06-12 Tuổi - Tiện Ích Không Ngờ</p>\
+<p>Chọn một món đồ nội thất phù hợp cho không gian học tập của trẻ em là điều rất quan trọng, đặc biệt là trong độ tuổi từ 06 đến 12. Bàn học thông minh Lunini 22+ là một lựa chọn tuyệt vời, không chỉ đáp ứng nhu cầu học tập mà còn mang lại nhiều tiện ích đáng giá cho trẻ. Hãy cùng khám phá những tính năng và lợi ích nổi bật của bàn học này.</p>\
+<p>Đặc Điểm Nổi Bật Của Bàn Học Thông Minh Lunini 22+\
+Thiết Kế Linh Hoạt và Có Thể Điều Chỉnh: Bàn học Lunini 22+ được thiết kế có thể điều chỉnh chiều cao, giúp phù hợp với sự phát triển của trẻ từ 06 đến 12 tuổi. Điều này bảo đảm rằng trẻ luôn ngồi ở tư thế thoải mái, giảm nguy cơ gặp phải các vấn đề về cột sống.\
+Chất Liệu Bền Bỉ và An Toàn: Sản phẩm được làm từ chất liệu gỗ công nghiệp cao cấp, bền bỉ và thân thiện với môi trường, không chứa hóa chất độc hại, đảm bảo an toàn cho sức khỏe của trẻ.\
+Hệ Thống Ngăn Chứa Thông Minh: Bàn được trang bị nhiều ngăn kéo và kệ chứa đồ thông minh, giúp trẻ dễ dàng tổ chức sách vở, dụng cụ học tập và giữ cho không gian học luôn ngăn nắp.\
+Thiết Kế Thẩm Mỹ: Với màu sắc tươi sáng và kiểu dáng hiện đại, bàn học Lunini 22+ không chỉ là nơi học tập mà còn là một phần trang trí cho phòng ngủ của trẻ, tạo động lực học tập.\
+Ghế Ngồi Phù Hợp: Bàn thường đi kèm với ghế ngồi thiết kế đồng bộ, giúp tạo thành một bộ sản phẩm hoàn hảo cho không gian học tập.\
+Tiện Ích Khi Sử Dụng Bàn Học Thông Minh Lunini 22+\
+Khuyến Khích Tinh Thần Học Tập: Không gian học tập thoải mái và thú vị giúp trẻ phát triển cảm hứng học hỏi, từ đó tăng cường sự tập trung và hiệu suất học tập.\
+Phát Triển Kỹ Năng Tự Lập: Bàn học với các ngăn chứa đồ giúp trẻ học cách tự quản lý việc học của mình, từ đó phát triển kỹ năng tự lập và có trách nhiệm.\
+Giảm Thiểu Mệt Mỏi: Thiết kế có thể điều chỉnh cho phép trẻ ngồi học trong thời gian dài mà không cảm thấy mệt mỏi hay khó chịu.\
+Tăng Cường Sự Sáng Tạo: Với một không gian học tập được tổ chức hợp lý, trẻ có thể dễ dàng thể hiện sự sáng tạo và khám phá kiến thức mới.\
+Dễ Dàng Vệ Sinh và Bảo Quản: Bàn được thiết kế để dễ dàng vệ sinh, giúp cha mẹ có thể chăm sóc và bảo quản bàn học đúng cách.\
+Cách Chăm Sóc Bàn Học Thông Minh Lunini 22+\
+Vệ Sinh Định Kỳ: Lau chùi bề mặt bằng khăn ẩm và dung dịch vệ sinh nhẹ để giữ cho bàn luôn sạch sẽ và sáng bóng.\
+Thường Xuyên Kiểm Tra: Kiểm tra các chức năng điều chỉnh chiều cao để đảm bảo bàn luôn hoạt động tốt và phù hợp với trẻ.\
+Sắp Xếp Đồ Dùng: Hướng dẫn trẻ cách sắp xếp sách vở và dụng cụ học tập vào các ngăn chứa để không gian học tập luôn gọn gàng. \
+Bàn học thông minh Lunini 22+ không chỉ là một sản phẩm nội thất mà còn là một công cụ hỗ trợ tuyệt vời cho việc học tập của trẻ em. Với thiết kế thông minh, chất lượng tốt, và nhiều tiện ích vượt trội, sản phẩm này xứng đáng là một phần không thể thiếu trong không gian học tập của các em. Hãy đầu tư ngay một chiếc bàn học Lunini 22+ để tạo điều kiện tốt nhất cho sự phát triển và học tập của con bạn!</p>\
+<p>Choosing a suitable piece of furniture for children&#39;s study space is very important, especially for children from 06 to 12 years old. The Lunini 22+ smart study desk is a great choice, not only meeting the learning needs but also bringing many valuable benefits to children. Let&#39;s explore the outstanding features and benefits of this study desk.</p>\
+<p>#tienichkhongngo </p>\
+<p>#tienichcuocsong </p>\
+<p>#tienichcuocsong </p>\
+<p>#tienichgiadinh</p>", 
+            "enabled": true,
+            "created": "2025-04-13T15:09:59.828Z"
+        },
+
+        {
+            "id": 11,
+            "categoryId": 1,
+            "videoLink": "https://youtube.com/embed/q9gWzOADxww",
+            "affiliateLink": "https://shorten.asia/1MUCB9GV",
+            "voucherLink": "",
+            "title": 'Bàn Học Thông Minh Cho Bé Từ 06-11 Tuổi H06 - Smart Study Desk For Children H06 - Tiện Ích Không Ngờ',
+            "description": "<p>Bàn Học Thông Minh Cho Bé Từ 06-11 Tuổi H06 - Tiện Ích Không Ngờ</p>\
+<p>Trong thời đại số hóa hiện nay, việc tạo ra một không gian học tập thoải mái và hiệu quả cho trẻ em là rất quan trọng. Bàn học thông minh H06 là một giải pháp tối ưu, không chỉ cung cấp một nơi học tập lý tưởng mà còn mang lại nhiều lợi ích đáng giá cho sự phát triển của trẻ. Hãy cùng khám phá những tính năng và tiện ích mà bàn học thông minh H06 mang lại.</p>\
+<p>Đặc Điểm Nổi Bật Của Bàn Học Thông Minh H06\
+Thiết Kế Công Thái Học: Bàn học H06 được thiết kế với chiều cao có thể điều chỉnh, giúp trẻ em dễ dàng thay đổi theo độ tuổi và chiều cao của mình. Điều này giúp tư thế ngồi học của trẻ luôn thoải mái và hạn chế vấn đề về cột sống.\
+Chất Liệu An Toàn: Bàn được làm từ chất liệu gỗ cao cấp, không chứa độc tố, đảm bảo an toàn cho sức khỏe của trẻ. Bề mặt bàn nhẵn mịn, dễ dàng vệ sinh và bảo quản.\
+Hộc Chứa Đồ Thông Minh: Với nhiều ngăn kéo và kệ chứa đồ hợp lý, bàn học H06 giúp trẻ dễ dàng sắp xếp sách vở, đồ dùng học tập, giữ cho không gian làm việc luôn gọn gàng và ngăn nắp.\
+Thiết Kế Thẩm Mỹ: Bàn học có màu sắc tươi sáng, kiểu dáng hiện đại phù hợp với không gian phòng trẻ em, giúp tạo động lực học tập cho bé.\
+Kèm Ghế Ngồi Tiện Lợi: Bộ sản phẩm thường đi kèm với ghế ngồi được thiết kế đồng bộ, tạo thành một bộ bàn ghế hoàn hảo cho không gian học tập của trẻ.\
+Tiện Ích Khi Sử Dụng Bàn Học Thông Minh H06\
+Khuyến Khích Tinh Thần Học Tập: Một không gian học tập thoải mái và thú vị sẽ khích lệ trẻ học tập hiệu quả hơn, từ đó phát triển tư duy và kiến thức.\
+Giúp Phát Triển Kỹ Năng Tự Lập: Bàn học với các ngăn chứa đồ giúp trẻ học cách tự quản lý đồ dùng học tập của mình, từ đó phát triển kỹ năng tự lập và có trách nhiệm.\
+Thoải Mái và Tiện Lợi Trong Suốt Quá Trình Học: Thiết kế có thể điều chỉnh giúp trẻ thoải mái khi học, từ đó tăng cường khả năng tập trung và hiệu suất học cao hơn.\
+Kích Thích Sự Sáng Tạo và Giao Tiếp: Không gian học được tổ chức khoa học giúp trẻ phát triển khả năng sáng tạo, cũng như giao tiếp với bạn bè khi học nhóm.\
+Dễ Dàng Tháo Lắp và Di Chuyển: Với thiết kế thông minh, bàn có thể dễ dàng tháo lắp và di chuyển đến các không gian khác nhau trong nhà.\
+Cách Chăm Sóc Bàn Học Thông Minh H06\
+Vệ Sinh Thường Xuyên: Sử dụng khăn ướt để lau bề mặt bàn và ghế giúp đảm bảo không có bụi bẩn và vi khuẩn.\
+Kiểm Tra Tính Năng Điều Chỉnh: Thường xuyên kiểm tra các cơ chế điều chỉnh chiều cao để đảm bảo bàn hoạt động hiệu quả.\
+Sắp Xếp Gọn Gàng: Hướng dẫn trẻ tự sắp xếp sách vở và đồ dùng học tập vào các ngăn chứa để giữ không gian học tập luôn ngăn nắp.</p>\
+<p>Bàn học thông minh H06 không chỉ đơn thuần là một món đồ nội thất mà còn mang lại nhiều tiện ích và giá trị cho trẻ em từ 06 đến 11 tuổi. Với thiết kế thông minh và đầy tính năng, sản phẩm này xứng đáng là sự lựa chọn hàng đầu cho không gian học tập của trẻ. Hãy đầu tư ngay một chiếc bàn học thông minh H06 để tạo điều kiện tốt nhất cho sự phát triển học tập và sáng tạo của con bạn!</p>\
+<p>Ergonomic Design: The H06 study desk is designed with adjustable height, helping children easily change according to their age and height. This helps children&#39;s sitting posture to always be comfortable and limits spinal problems.\
+Safe Material: The table is made of high-quality wood, does not contain toxins, ensuring safety for children&#39;s health. The table surface is smooth, easy to clean and maintain.\
+Smart Storage Compartment: With many drawers and reasonable shelves, the H06 study desk helps children easily organize books, school supplies, keeping the working space neat and tidy.\
+Aesthetic Design: The study desk has bright colors, modern design suitable for children&#39;s room space, helping to motivate children to study.\
+With Convenient Chair: The product set often comes with a chair designed in sync, creating a perfect table and chair set for children&#39;s study space.\
+Benefits When Using the H06 Smart Study Desk\
+Encourage Learning Spirit: A comfortable and interesting study space will encourage children to study more effectively, thereby developing thinking and knowledge.\
+Help Develop Independent Skills: The study desk with storage compartments helps children learn to manage their own study supplies, thereby developing independent and responsible skills.\
+Comfortable and Convenient During the Study Process: The adjustable design helps children feel comfortable while studying, thereby enhancing their ability to concentrate and improve their learning performance.\
+Stimulate Creativity and Communication: The scientifically organized study space helps children develop their creativity, as well as communicate with friends when studying in groups.\
+Easy to Disassemble and Move: With a smart design, the table can be easily disassembled and moved to different spaces in the house.\
+How to Care for Smart Study Desk H06</p>\
+<p>#tienichcuocsong </p>\
+<p>#tienichgiadinh </p>\
+<p>#banhochh06</p>", 
+            "enabled": true,
+            "created": "2025-04-13T15:09:59.828Z"
+        },
+
+        {
+            "id": 10,
+            "categoryId": 1,
+            "videoLink": "https://youtube.com/embed/X4au-unwinw",
+            "affiliateLink": "https://shorten.asia/1MUCB9GV",
+            "voucherLink": "",
+            "title": 'Đèn Ngủ Cảm Ứng Cực Kỳ Thông Minh - Extremely Smart Sensor Night Light - Tiện Ích Không Ngờ',
+            "description": "<p>Đèn Ngủ Cảm Ứng Cực Kỳ Thông Minh - Tiện Ích Không Ngờ</p>\
+<p>Trong cuộc sống hiện đại, việc có một không gian ngủ thoải mái và ấm áp là điều rất quan trọng. Đèn ngủ cảm ứng thông minh không chỉ là một thiết bị chiếu sáng mà còn mang đến nhiều tiện ích và trải nghiệm tuyệt vời cho người sử dụng. Hãy cùng khám phá những tính năng nổi bật và lợi ích không ngờ mà sản phẩm này mang lại.</p>\
+<p>Đặc Điểm Nổi Bật Của Đèn Ngủ Cảm Ứng Thông Minh\
+Cảm Ứng Thông Minh: Đèn ngủ được trang bị cảm biến chuyển động, tự động bật sáng khi có người lại gần và tắt khi không còn ai trong không gian. Điều này giúp tiết kiệm điện và không gây phiền toái vào ban đêm.\
+Độ Sáng Có Thể Điều Chỉnh: Nhiều loại đèn ngủ thông minh cho phép người dùng tùy chỉnh độ sáng theo nhu cầu, từ ánh sáng nhẹ nhàng để thư giãn cho đến ánh sáng sáng hơn để đọc sách.\
+Thiết Kế Hiện Đại và Gọn Nhẹ: Đèn ngủ thường có thiết kế tối giản, hiện đại, dễ dàng hòa hợp với nhiều phong cách trang trí nội thất, từ cổ điển đến hiện đại. Kích thước nhỏ gọn giúp đặt ở mọi vị trí trong phòng.\
+Nhiều Chế Độ Chiếu Sáng: Một số mẫu đèn cung cấp nhiều chế độ ánh sáng khác nhau như ánh sáng trắng, vàng ấm hoặc ánh sáng màu, tạo không gian lý tưởng cho việc thư giãn, làm việc hay đọc sách.\
+Tiết Kiệm Năng Lượng: Sử dụng công nghệ LED, đèn ngủ cảm ứng thông minh tiêu tốn điện năng rất thấp, giúp tiết kiệm chi phí điện hàng tháng.\
+Tiện Ích Khi Sử Dụng Đèn Ngủ Cảm Ứng Thông Minh\
+Tăng Cường Giấc Ngủ: Ánh sáng dịu nhẹ từ đèn ngủ giúp tạo ra môi trường thích hợp cho giấc ngủ sâu và ngon hơn, đặc biệt là cho trẻ nhỏ và người lớn tuổi.\
+Tiện Lợi Trong Thao Tác: Với tính năng tự động cảm ứng, người dùng không cần phải bật tắt đèn bằng tay, điều này rất thuận tiện khi bạn đang ở trong trạng thái nửa tỉnh nửa ngủ.\
+An Toàn Tối Đa: Đèn ngủ giúp người dùng di chuyển một cách an toàn trong bóng tối mà không lo bị vấp ngã hay gặp phải chướng ngại vật.\
+Tăng Cường Thẩm Mỹ Không Gian: Đèn ngủ thông minh không chỉ cung cấp ánh sáng mà còn có tác dụng trang trí cho phòng ngủ, tạo nên vẻ đẹp và sự ấm cúng cho không gian sống.\
+Dễ Dàng Sử Dụng: Với thiết kế đơn giản, người sử dụng chỉ cần cắm vào ổ điện và bật lên là đã có thể sử dụng ngay mà không cần phải cài đặt phức tạp.\
+Cách Sử Dụng Đèn Ngủ Cảm Ứng Thông Minh\
+Cài Đặt Vị Trí: Đặt đèn ngủ ở vị trí gần giường hoặc nơi bạn thường di chuyển vào ban đêm để dễ dàng tiếp cận.\
+Kiểm Tra Chức Năng Cảm Ứng: Đảm bảo chức năng cảm ứng hoạt động hiệu quả bằng cách kiểm tra ánh sáng tự động bật tắt khi có chuyển động.\
+Điều Chỉnh Độ Sáng: Nếu sản phẩm có tính năng điều chỉnh độ sáng, hãy tùy chỉnh sao cho phù hợp với nhu cầu của bạn.\
+Vệ Sinh Định Kỳ: Lau chùi bề mặt đèn để giữ cho đèn luôn sạch sẽ và hoạt động tốt.</p>\
+<p>Đèn ngủ cảm ứng thông minh không chỉ là một thiết bị chiếu sáng đơn thuần mà còn mang lại nhiều lợi ích cho sức khỏe và sự tiện nghi trong không gian sống. Với công nghệ hiện đại, thiết kế thông minh và tính năng tự động, sản phẩm này chắc chắn sẽ là một phần không thể thiếu trong phòng ngủ của bạn. Hãy trải nghiệm ngay hôm nay để tận hưởng những tiện ích không ngờ mà nó mang lại!</p>\
+<p>#dennguthongminh</p>\
+<p>#tienichcuocsong </p>\
+<p>#tienichgiadinh </p>\
+<p>#tienichkhongngo </p>\
+<p>#goodthing #clotheshanger #home</p>", 
+            "enabled": true,
+            "created": "2025-04-13T15:09:59.828Z"
+        },
+
+        {
+            "id": 9,
+            "categoryId": 1,
+            "videoLink": "https://youtube.com/embed/yAnzfPr7I10",
+            "affiliateLink": "https://shorten.asia/1MUCB9GV",
+            "voucherLink": "",
+            "title": 'Bao Cao Su nội địa trung, Bảo vệ sức khỏe cho bạn - Domestic Condoms - Tiện Ích Không Ngờ',
+            "description": "<p>Bao cao su luôn đóng vai trò quan trọng trong việc bảo vệ sức khỏe sinh sản của cả nam và nữ. Trong bối cảnh phòng ngừa các bệnh lây truyền qua đường tình dục và kiểm soát sinh sản, bao cao su nội địa Trung đang ngày càng trở thành sự lựa chọn phổ biến. Hãy cùng tìm hiểu về bao cao su nội địa Trung và những tiện ích không ngờ mà sản phẩm này mang lại cho sức khỏe gia đình.</p><p>Đặc Điểm Nổi Bật Của Bao Cao Su Nội Địa TrungChất Liệu An Toàn: Nhiều thương hiệu bao cao su nội địa Trung được sản xuất từ cao su tự nhiên hoặc các vật liệu an toàn, không gây kích ứng cho người sử dụng. Điều này giúp bảo vệ sức khỏe và tối ưu hóa trải nghiệm.Đa Dạng Về Kiểu Dáng và Kích Thước: Bao cao su nội địa Trung thường có nhiều kiểu dáng và kích thước khác nhau, giúp người dùng dễ dàng lựa chọn sản phẩm phù hợp với nhu cầu và sở thích cá nhân. \
+Tính Năng Bảo Vệ Hiệu Quả: Sản phẩm được thiết kế để ngăn chặn hiệu quả tình trạng mang thai ngoài ý muốn cũng như phòng ngừa các bệnh lây truyền qua đường tình dục như HIV/AIDS, lậu, hoặc giang mai. Độ Mỏng Nhẹ Kiến Tạo Cảm Giác: Nhiều loại bao cao su nội địa Trung có độ mỏng nhẹ, giúp mang lại cảm giác tự nhiên và thoải mái nhất cho cả hai bên trong khi vẫn giữ được hiệu quả bảo vệ. Giá Cả Phải Chăng: Bao cao su nội địa Trung thường có giá cả cạnh tranh, giúp người tiêu dùng dễ dàng tiếp cận một sản phẩm chất lượng mà không tốn nhiều chi phí. Tiện Ích Khi Sử Dụng Bao Cao Su Nội Địa TrungBảo Vệ Sức Khỏe Sinh Sản: Sử dụng bao cao su là một trong những biện pháp hiệu quả nhất để bảo vệ sức khỏe sinh sản, giúp ngăn ngừa bệnh tật và mang thai ngoài ý muốn. \
+Tăng Cường Sự Thoải Mái Trong Quan Hệ: Với thiết kế phù hợp và chất liệu an toàn, bao cao su nội địa Trung giúp mang lại sự thoải mái tối đa, giúp cả hai bên tận hưởng những khoảnh khắc thân mật. \
+Dễ Dàng Sử Dụng: Bao cao su nội địa Trung thường được thiết kế đơn giản, dễ dàng mở và sử dụng, phù hợp với nhiều đối tượng người dùng. \
+Giá Trị Đầu Tư Thông Minh: Thay vì phải chi trả cho các chi phí liên quan đến việc điều trị bệnh tật hay mang thai không kế hoạch, việc sử dụng bao cao su mang lại một giải pháp tiết kiệm và thông minh hơn.\
+Xây Dựng Thói Quen Lành Mạnh: Sử dụng bao cao su không chỉ bảo vệ sức khỏe mà còn tạo thói quen tốt trong quan hệ tình dục, giúp cả hai bên xây dựng mối quan hệ an toàn và đáng tin cậy.\
+Cách Sử Dụng Bao Cao Su Đúng Cách. Kiểm Tra Hạn Sử Dụng: Trước khi sử dụng, hãy kiểm tra hạn sử dụng của bao cao su để đảm bảo sản phẩm còn hiệu quả. \
+Mở Bao Cao Su Cẩn Thận: Khi mở bao, nên dùng tay để không làm rách bao cao su. Tránh dùng các vật sắc nhọn.\
+Sử Dụng Đúng Cách: Đặt bao cao su lên đầu dương vật khi còn cương và đảm bảo sản phẩm không bị lộn ngược.\
+Sau Khi Sử Dụng: Gỡ bỏ bao cao su cẩn thận và vứt vào thùng rác. Không xả bao cao su xuống bồn cầu.\
+Kết Luận\
+Bao cao su nội địa Trung không chỉ là sản phẩm hữu ích trong việc bảo vệ sức khỏe sinh sản mà còn giúp xây dựng thói quen quan hệ tình dục an toàn và lành mạnh. Với nhiều đặc điểm nổi bật và tiện ích không ngờ, sản phẩm này xứng đáng là sự lựa chọn hàng đầu cho mọi gia đình. Hãy lựa chọn bao cao su nội địa Trung để bảo vệ sức khỏe và gia đình bạn một cách tốt nhất!</p>\
+<p>Condoms always play an important role in protecting the reproductive health of both men and women. In the context of preventing sexually transmitted diseases and birth control, Chinese domestic condoms are becoming an increasingly popular choice. Let&#39;s learn about Chinese domestic condoms and the unexpected benefits that this product brings to family health.</p> \
+<p>Outstanding Features of Chinese Domestic Condoms \
+Safe Materials: Many Chinese domestic condom brands are made from natural rubber or safe materials that do not cause irritation to users. This helps protect health and optimize the experience. \
+Diverse in Shapes and Sizes: Chinese domestic condoms often come in many different shapes and sizes, making it easy for users to choose the product that suits their needs and personal preferences. \
+Effective Protection Features: The product is designed to effectively prevent unwanted pregnancies as well as sexually transmitted diseases such as HIV/AIDS, gonorrhea, or syphilis. \
+Lightweight and Thin: Many types of Chinese domestic condoms are thin and light, helping to bring the most natural and comfortable feeling to both parties while still maintaining effective protection. \
+Affordable Price: Chinese domestic condoms are often competitively priced, helping consumers easily access a quality product without spending much money.</p> \
+<p>#tienichcuocsong </p>\
+<p>#tienichcuocsong </p>\
+<p>#baocaosu </p>\
+<p>#suckhoegiadinh</p>\
+<p>#tienichcuocsong</p>\
+ sức khỏe của bạn - Domestic Condoms China - Tiện Ích Không Ngờ",
+          
+            "enabled": true,
+            "created": "2025-04-13T15:09:59.828Z"
+        },
+
         {
             "id": 8,
             "categoryId": 1,
