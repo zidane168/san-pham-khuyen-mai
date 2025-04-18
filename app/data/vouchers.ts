@@ -1,7 +1,7 @@
 export const vouchersData = {    
     "_pagination": {
-        "count": 7,
-            "totalPage": 1
+        "count": 1,
+        "totalPage": 1
     },
     "data": [  
         {

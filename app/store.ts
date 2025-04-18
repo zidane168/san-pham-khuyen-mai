@@ -1,11 +1,13 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import { createWrapper } from 'next-redux-wrapper';
 import productsSlice from '@app/features/productSlice';
+import vouchersSlice from '@app/features/voucherSlice';
 
 export const makeStore = () => 
   configureStore({
     reducer: {
       products: productsSlice,
+      vouchers: vouchersSlice,
     },
   });
 
@@ -22,3 +24,4 @@ export type AppDispatch = AppStore['dispatch'];
 
 
 export const wrapper = createWrapper<AppStore>(makeStore);
+ 
