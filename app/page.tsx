@@ -90,24 +90,30 @@ export default function ProductsPage() {
   }, [handleScroll]);
 
   const handleClick = (event: any) => { 
-      document.getElementById('subscriptionForm').onsubmit = function(event) {
-        event.preventDefault();
-        const formData = new FormData(event.target);
-        https://script.google.com/macros/s/AKfycbwHTz3tbGaHS1AoAt-nNN-HFMKanqEc1Fs6txZGrk7OnpCO3Gg8LzGQS7OhWzj6YxfZCA/exec
 
+    const formElement = document.getElementById('subscriptionForm');
+
+    if (formElement) {
+      formElement.onsubmit = function(event) {
+        event.preventDefault();
+        // Ensure event.target is an HTMLFormElement
+        const target = event.target as HTMLFormElement;
+        const formData = new FormData(target);
+       
         fetch('https://script.google.com/macros/s/AKfycbwHTz3tbGaHS1AoAt-nNN-HFMKanqEc1Fs6txZGrk7OnpCO3Gg8LzGQS7OhWzj6YxfZCA/exec', {
           method: 'POST',
           body: formData,
         })
         .then(response => response.json())
         .then(data => {
-          alert('Nhận mã khuyến mãi thành công');
-          document.getElementById('subscriptionForm').reset();
+          alert('BẠN ĐÃ ĐĂNG KÝ Nhận mã khuyến mãi thành công!');
+          (formElement as HTMLFormElement).reset()          
         })
         .catch(error => {
           alert('Error: ' + error);
         });
       };
+    }
   };
 
   return (
