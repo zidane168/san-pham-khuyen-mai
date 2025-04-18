@@ -89,6 +89,27 @@ export default function ProductsPage() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
 
+  const handleClick = (event: any) => { 
+      document.getElementById('subscriptionForm').onsubmit = function(event) {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        https://script.google.com/macros/s/AKfycbwHTz3tbGaHS1AoAt-nNN-HFMKanqEc1Fs6txZGrk7OnpCO3Gg8LzGQS7OhWzj6YxfZCA/exec
+
+        fetch('https://script.google.com/macros/s/AKfycbwHTz3tbGaHS1AoAt-nNN-HFMKanqEc1Fs6txZGrk7OnpCO3Gg8LzGQS7OhWzj6YxfZCA/exec', {
+          method: 'POST',
+          body: formData,
+        })
+        .then(response => response.json())
+        .then(data => {
+          alert('Nhận mã khuyến mãi thành công');
+          document.getElementById('subscriptionForm').reset();
+        })
+        .catch(error => {
+          alert('Error: ' + error);
+        });
+      };
+  };
+
   return (
    
     <div className="container p-4 mx-auto shadow-lg">
@@ -105,6 +126,29 @@ export default function ProductsPage() {
       </div>
 
       <div className="container p-4 mx-auto">
+
+        <div className='p-2 text-white bg-pink-700 border rounded-lg '>
+          <strong className="mb-4 text-2xl font-bold">ĐĂNG KÝ nhận MÃ KHUYẾN MÃI MIỄN PHÍ </strong>
+        </div>
+ 
+        <div className='text-sm m-4 justify-center flex'> 
+          <div className="form-container-subscription"> 
+            <form id="subscriptionForm">
+                <label htmlFor="name">Name / Tên </label>
+                <input type="text" id="name" name="name" required />
+                <label htmlFor="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                
+                <label htmlFor="phone">phone / Số điện thoại </label>
+                <input type="text" id="phone" name="phone" required /> 
+
+                <input type="submit" value="Đăng ký nhận mã khuyển mãi" onClick={ handleClick } />
+            </form>
+            <div className="message" id="message"></div>
+          </div>
+        </div> 
+
+
         <div className='p-2 text-white bg-pink-700 border rounded-lg '>
           <strong className="mb-4 text-2xl font-bold uppercase">Voucher miễn phí vô hạn - Tiện Ích Không Ngờ ({pagination?.count || 0})</strong>
         </div>

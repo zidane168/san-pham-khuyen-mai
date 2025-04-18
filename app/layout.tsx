@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Các Sản phẩm Đang Giảm Giá",
+  title: "Các Sản phẩm tiện lợi Đang Giảm Giá, Miễn phí, free vouchers, free product",
   description: "Tập hợp các sản phẩm giảm giá, voucher miễn phí trên các sàn điện tử nổi tiếng",
 };
 
@@ -29,8 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      >         
          <Providers>{children}</Providers>
+         <Analytics />
       </body>
     </html>
   );

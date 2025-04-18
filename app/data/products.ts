@@ -5,6 +5,41 @@ export const productsData = {
     },
     "data": [
 
+
+        {
+            "id": 15,
+            "categoryId": 1,
+            "videoLink": "https://youtube.com/embed/tt0a2GLPQZE",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Máy Massage Mini Cầm Tay 4 Chế Độ - Massage Mini Machine - Tiện Ích Không Ngờ - Tiện Ích Không Ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-04-18T15:09:59.828Z"
+        },
+        {
+            "id": 14,
+            "categoryId": 1,
+            "videoLink": "https://youtube.com/embed/UQY_H-7uoqE",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Micro Gaming Magno DMG20 - Chống Ổn Khu Nhieu, Cực Tốt Giá Rẻ -  Tiện Ích Không Ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-04-18T15:09:59.828Z"
+        },
+        {
+            "id": 13,
+            "categoryId": 1,
+            "videoLink": "https://youtube.com/embed/QS9r00usy4I",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Máy Massage Cổ Vai Gáy LÀM THAY ĐỔI Cuộc Sống Của Bạn - Tiện Ích Không Ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-04-18T15:09:59.828Z"
+        },
+
         {
             "id": 12,
             "categoryId": 1,
@@ -217,8 +252,8 @@ Affordable Price: Chinese domestic condoms are often competitively priced, helpi
         {
             "id": 2,
             "categoryId": 1,
-            "videoLink": "https://youtube.com/embed/fe1RgrfbqBw",
-            "affiliateLink": "",
+            "videoLink": "https://youtube.com/embed/fe1RgrfbqBw",            
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
             "voucherLink": "",
             "title": "Giá Đỡ Kem Đánh Răng Gia Đình - Family Toothpaste Holder Tiện Ích Không Ngờ",
             "description": "<div>Giá Đõ Kem Đánh Răng Gia Đình - Family Toothpaste Holder Tiện Ích Không Ngờ\n</div>\n\n<div>\nTrong cuộc sống hàng ngày, việc chăm sóc sức khỏe răng miệng là một yếu tố không thể thiếu. Chúng ta thường tìm kiếm những sản phẩm giúp việc vệ sinh răng miệng trở nên dễ dàng và hiệu quả hơn. Một trong những sản phẩm được nhiều gia đình ưa chuộng là giá đồ kèm đánh răng gia đình. Vậy giá đồ này có những tính năng và tiện ích gì nổi bật? Hãy cùng khám phá trong bài viết này.\n</div>\n\n<div>\nGiá Đõ Kem Đánh Răng Gia Đình - Family Toothpaste Holder Tiện Ích Không Ngờ là một thiết bị được thiết kế để tổ chức và bảo quản các vật dụng liên quan đến vệ sinh răng miệng như bàn chải đánh răng, kem đánh răng, chỉ nha khoa, và các sản phẩm chăm sóc răng miệng khác. Thường được làm từ nhựa hoặc kim loại, sản phẩm này giúp giữ cho không gian vệ sinh răng miệng của bạn luôn gọn gàng và sạch sẽ.\n</div>\n\n<div>\nTính Năng Nổi Bật Của Giá Đõ Kem Đánh Răng Gia Đình - Family Toothpaste Holder Tiện Ích Không Ngờ\n</div>\n\n<div>\nTổ Chức Gọn Gàng: Một trong những tính năng nổi bật của giá đồ kèm đánh răng gia đình là khả năng tổ chức các vật dụng liên quan đến vệ sinh răng miệng một cách gọn gàng. Bạn có thể dễ dàng sắp xếp bàn chải, kem đánh răng, và các sản phẩm khác mà không lo lắng về việc tìm kiếm.\n</div>\n<div>\nThiết Kế Thông Minh: Nhiều giá đồ được thiết kế với các ngăn cũng như móc treo, giúp bạn dễ dàng sắp xếp và lấy các vật dụng cần thiết khi cần.\n</div>\n\n<div>\nChất Liệu Bền Bỉ và Dễ Vệ Sinh: Thường làm từ vật liệu nhựa chịu nước hoặc inox, giá đồ không chỉ bền bỉ mà còn dễ dàng vệ sinh, giúp bạn duy trì vệ sinh sạch sẽ cho không gian.\n</div>\n\n<div>\nThiết Kế Tiết Kiệm Không Gian: Với các thiết kế nhỏ gọn và tinh tế, giá đồ có khả năng tiết kiệm không gian trong phòng tắm, thuận tiện cho việc sử dụng hàng ngày.\n</div>\n\n<div>\nLợi Ích Khi Sử Dụng Giá Đõ Kem Đánh Răng Gia Đình - Family Toothpaste Holder Tiện Ích Không Ngờ\n</div>\n\n\n<div>\nTiết Kiệm Thời Gian: Khi mọi thứ đã được tổ chức gọn gàng, bạn sẽ không còn mất thời gian tìm kiếm các vật dụng cần thiết mỗi lần đánh răng. Điều này giúp tiết kiệm thời gian cho bạn và gia đình.\n</div>\n\n<div>\nGiữ Vệ Sinh Cho Không Gian: Việc sắp xếp gọn gàng giúp hạn chế bụi bẩn và vi khuẩn phát triển, từ đó bảo vệ sức khỏe răng miệng của cả gia đình.\n</div>\n\n<div>\nThúc Đẩy Thói Quen Vệ Sinh: Sự hiện diện của giá đồ có thể giúp tạo thói quen tốt hơn về việc chăm sóc răng miệng. Khi mọi thứ luôn trong tầm tay và dễ dàng tiếp cận, mọi người trong gia đình sẽ dễ dàng hơn trong việc duy trì thói quen đánh răng thường xuyên.\n</div>\n\n\n<div>\nThẩm Mỹ và Tăng Cường Không Gian: Không chỉ mang lại tính tiện dụng, giá đồ được thiết kế đẹp mắt còn giúp tăng cường thẩm mỹ cho không gian phòng tắm của bạn, tạo cảm giác thoải mái và dễ chịu.\n</div>\n\n<div>\nCách Sử Dụng Giá Đõ Kem Đánh Răng Gia Đình - Family Toothpaste Holder Tiện Ích Không Ngờ\n</div>\n\n<div>\nLắp Đặt: Tùy vào kiểu dáng và thiết kế của giá đồ, bạn có thể lắp đặt nó ở vị trí mà bạn cảm thấy thuận tiện nhất trong phòng tắm, gần gương hoặc chậu rửa.\nSắp Xếp Đồ Đạc: Đặt bàn chải, kem đánh răng và các vật dụng khác vào các ngăn hoặc giá treo đã được thiết kế sẵn. Hãy chắc chắn rằng mọi thứ đều dễ dàng lấy ra khi cần.\n</div>\n\n<div>\nVệ Sinh Định Kỳ: Để duy trì vệ sinh, hãy thường xuyên lau chùi và vệ sinh giá đồ cũng như các vật dụng trên đó.\n</div>\n#giadokemdanhrang\n#tienichkhongngo\n#tienichgiadinh \n#tienichcuocsong",
@@ -229,7 +264,7 @@ Affordable Price: Chinese domestic condoms are often competitively priced, helpi
             "id": 1,
             "categoryId": 1,
             "videoLink": "https://youtube.com/embed/m_qwa3a8K2M",
-            "affiliateLink": "",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
             "voucherLink": "",
             "title": "Cây lau nhà thông minh Smart mop - Tiện ích không ngờ",
             "description": "<div>Cây lau nhà thông minh Smart mop - Tiện ích không ngờ  </div>\n\n<div>\nTrong thời buổi công nghệ phát triển mạnh mẽ như hiện nay, nhiều dụng cụ gia dụng thông minh đã ra đời nhằm mục đích tiết kiệm thời gian và công sức cho người dùng. Một trong những sản phẩm tiêu biểu đó chính là cây lau nhà thông minh. Với những tính năng vượt trội, cây lau nhà cấp cao, cây lau nhà thông minh bằng điện và cây lau nhà tự vắt thông minh đã và đang trở thành người bạn đồng hành không thể thiếu trong mỗi ngôi nhà hiện đại.\n</div>\n\n<div>\nĐiểm Nổi Bật Của Cây Lau Nhà Thông Minh\nCây lau nhà thông minh không chỉ đơn thuần là một dụng cụ lau chùi mà còn được trang bị nhiều công nghệ hiện đại. Đầu tiên, cần phải nhắc đến khả năng tự động vắt nước, giúp người dùng không còn phải mất công sức vắt khăn lau mỗi khi sử dụng. Với thiết kế thông minh, cây lau nhà tự vắt thông minh sẽ tự động tháo nước bẩn và vắt khô khăn lau chỉ với một nút bấm. Điều này không chỉ tiết kiệm thời gian mà còn giúp tăng hiệu suất lau chùi.\n\nNgoài ra, cây lau nhà thông minh bằng điện còn được trang bị tính năng phun sương, giúp làm sạch bề mặt sàn hiệu quả hơn. Nhờ vào công nghệ phun sương, người dùng có thể dễ dàng tạo độ ẩm phù hợp để lau sạch bụi bẩn mà không làm ướt sàn.\n</div>\n\n<div>\n*Những Lợi Ích Khi Sử Dụng Cây Lau Nhà Thông Minh*\n</div>\n\n<div>\nTiết Kiệm Thời Gian: Đối với những người bận rộn, thời gian luôn là yếu tố quý giá. Việc sử dụng cây lau nhà thông minh giúp rút ngắn thời gian lau chùi sàn nhà một cách đáng kể. Bạn có thể dễ dàng làm sạch căn nhà trong thời gian ngắn hơn và có nhiều thời gian cho những hoạt động khác.\n</div>\n\n<div>\nDễ Dàng Sử Dụng: Một trong những ưu điểm lớn nhất của cây lau nhà cấp cao là sự dễ dàng trong cách sử dụng. Chỉ với một nút bấm, bạn có thể điều khiển toàn bộ quá trình lau chùi mà không cần phải tốn sức. Các thiết kế ergonomics cũng giúp người dùng cảm thấy thoải mái hơn khi sử dụng.\nTiết Kiệm Nước và Hóa Chất Tẩy Rửa: Nhờ vào công nghệ phun sương và vắt thông minh, cây lau nhà thông minh bằng điện sẽ giúp giảm thiểu lượng nước và hóa chất tẩy rửa cần thiết, từ đó bảo vệ môi trường và gia đình bạn khỏi những hóa chất độc hại.\n</div>\n<div>\nCách Sử Dụng Cây Lau Nhà Thông Minh\nĐể sử dụng cây lau nhà thông minh một cách hiệu quả nhất, bạn cần nắm rõ các bước dưới đây:\n</div>\n\n<div>\nChuẩn Bị: Đầu tiên, bạn cần đổ nước vào bình chứa của cây lau nhà. Nếu muốn, bạn cũng có thể thêm một chút chất tẩy rửa chuyên dụng để tăng khả năng làm sạch.\nBật Thiết Bị: Sau khi đã chuẩn bị xong, bạn chỉ cần bật công tắc của cây lau nhà. Đối với cây lau nhà thông minh bằng điện, bạn sẽ thấy đèn báo hiệu sáng lên.\nLau Sàn: Dùng cây lau nhà để di chuyển qua lại trên sàn nhà. Bạn có thể điều chỉnh tốc độ và chế độ phun sương để phù hợp với từng loại sàn khác nhau.\nVắt Khăn Lau: Sau khi đã lau xong, sử dụng nút vắt thông minh để tự động vắt khăn lau. Điều này sẽ giúp khăn lau luôn sạch sẽ và không bị ẩm ướt quá mức.\nBảo Quản: Cuối cùng, hãy vệ sinh bình chứa nước và khăn lau sau mỗi lần sử dụng để đảm bảo sản phẩm luôn ở tình trạng tốt nhất.\n</div>\n\n<div>\nKết Luận\nCây lau nhà thông minh Smart Mop không chỉ là một sản phẩm tiện ích mà còn là một giải pháp hoàn hảo cho mọi gia đình. Với khả năng tự động vắt, tính năng phun sương và thiết kế thân thiện với người dùng, cây lau nhà cấp cao này xứng đáng là sự lựa chọn hàng đầu cho những ai mong muốn tối ưu hóa công việc lau chùi nhà cửa. Hãy đầu tư một chiếc cây lau nhà thông minh để trải nghiệm sự khác biệt và tiện ích mà sản phẩm mang lại!\n</div>\n#caylaunhathongminh\n#caylaunhatuvat\n#tienichkhongngo\n#tienichgiadinh \n#tienichcuocsong",
