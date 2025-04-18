@@ -156,7 +156,7 @@ export default function ProductsPage() {
 
 
         <div className='p-2 text-white bg-pink-700 border rounded-lg '>
-          <strong className="mb-4 text-2xl font-bold uppercase">Voucher miễn phí vô hạn - Tiện Ích Không Ngờ ({pagination?.count || 0})</strong>
+          <strong className="mb-4 text-2xl font-bold uppercase">Voucher miễn phí vô hạn - Tiện Ích Không Ngờ </strong>
         </div>
 
         <ul className="grid grid-cols-1 gap-4 shadow-lg md:grid-cols-2 lg:grid-cols-2">
