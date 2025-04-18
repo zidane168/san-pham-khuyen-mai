@@ -195,7 +195,7 @@ Affordable Price: Chinese domestic condoms are often competitively priced, helpi
         {
             "id": 5,
             "categoryId": 1,
-            "videoLink": "https://youtube.com/embed/ZlpiFFPtjTM",
+            "videoLink": "https://youtube.com/embed/m8Xy8kFic8c",
             "affiliateLink": "https://shorten.asia/wfp9e5ng",
             "voucherLink": "",
             "title": "[5] Thùng Rác Thông Minh - Smart Trash Can - Tiện Ích Không Ngờ",
@@ -217,7 +217,7 @@ Affordable Price: Chinese domestic condoms are often competitively priced, helpi
         {
             "id": 3,
             "categoryId": 1,
-            "videoLink": "https://youtube.com/embed/fe1RgrfbqBw",
+            "videoLink": "https://youtube.com/embed/ZlpiFFPtjTM",
             "affiliateLink": "https://shorten.asia/FfzsTSjE",
             "voucherLink": "",
             "title": "Giỏ Đựng Quần Áo Có Bánh Xe - Wear clothes with wheels - Tiện Ích Không Ngờ",
