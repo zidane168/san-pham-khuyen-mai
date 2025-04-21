@@ -20,7 +20,7 @@ export const productsData = {
             "id": 17,
             "categoryId": 1,
             "videoLink": "https://youtube.com/embed/y5Qg4iRetzU",
-            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "affiliateLink": "https://shorten.asia/5Cc2A9Qg",
             "voucherLink": "",
             "title": 'Máy cắt móng tay tự động - STOP Cutting Your Nails Manually with Automatic Electric Nail Clippers - Tiện Ích Không Ngờ',
             "description": " ", 
