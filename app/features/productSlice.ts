@@ -38,8 +38,8 @@ const initialState: ProductsState = {
 
 export const fetchProducts = createAsyncThunk<ProductsResponse, { page: number, limit: number }>(
   'products/fetchProducts',
-  async ( arg ) => {
-    const { page, limit } = arg; 
+  async ({page, limit } , {rejectWithValue} ) => {
+   //  const { page, limit } = arg; 
 
     await new Promise(resolve => setTimeout(resolve, 100));
 

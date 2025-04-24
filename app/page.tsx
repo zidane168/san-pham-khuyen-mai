@@ -131,212 +131,219 @@ export default function ProductsPage() {
           /> 
       </div>
 
-      <div className="container p-4 mx-auto">
-
-        <div className='p-2 text-white bg-pink-700 border rounded-lg '>
-          <strong className="mb-4 text-2xl font-bold">ĐĂNG KÝ nhận MÃ KHUYẾN MÃI MIỄN PHÍ </strong>
-        </div>
- 
-        <div className='text-sm m-4 justify-center flex'> 
-          <div className="form-container-subscription"> 
-            <form id="subscriptionForm">
-                <label htmlFor="name">Name / Tên </label>
-                <input type="text" id="name" name="name" required />
-                <label htmlFor="email">Email:</label>
-                <input type="email" id="email" name="email" required />
-                
-                <label htmlFor="phone">phone / Số điện thoại </label>
-                <input type="text" id="phone" name="phone" required /> 
-
-                <input type="submit" value="Đăng ký nhận mã khuyển mãi" onClick={ handleClick } />
-            </form>
-            <div className="message" id="message"></div>
+      <div className="flex flex-col gap-2 p-4 mx-auto container-lg lg:flex-row">
+        <div className='grow-2'> 
+          <div className='p-2 text-white bg-pink-700 border rounded-lg '>
+            <strong className="mb-4 text-2xl font-bold">NHẬN MÃ MIỄN PHÍ/GET FREE</strong>
           </div>
-        </div> 
-
-
-        <div className='p-2 text-white bg-pink-700 border rounded-lg '>
-          <strong className="mb-4 text-2xl font-bold uppercase">Voucher miễn phí vô hạn - Tiện Ích Không Ngờ </strong>
-        </div>
-
-        <ul className="grid grid-cols-1 gap-4 shadow-lg md:grid-cols-2 lg:grid-cols-2">
-          {
-          vouchers.map((v: Voucher, index: number) => (
-            <li key={ index } className="p-4 rounded-lg ">
-              <div className='p-2 mb-2 text-white bg-blue-700 rounded-md shadow-xl/30'>
-                <strong className="mb-2 text-xl font-semibold uppercase">{v.title}</strong>
-              </div> 
-              <div className="space-x-2 space-y-2"> 
-                {v.videoLink && ( 
-                  <VideoEmbed url={ v.videoLink } /> 
-                )}
-
-                {
-                  !v.videoLink && v.description && ( 
-                    <div className='p-4 border-4 border-blue-800 rounded-lg shadow-2xl bg-amber-100' dangerouslySetInnerHTML = {{ __html: v.description }}   />
-                  )
-                } 
- 
-              {v.voucherLink && (
-                   <a
-                   href={v.voucherLink}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-green-500 to-blue-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
-                 >
-                   {/* Animated border */}
-                   <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-green-500 to-blue-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
-                   
-                   {/* Button content */}
-                   <span className="relative tracking-wider">
-                     Lấy Voucher - Get Free Voucher
-                   </span>
-                   
-                   {/* Animated arrow icon */}
-                   <svg
-                     className="relative w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1"
-                     fill="none"
-                     stroke="currentColor"
-                     viewBox="0 0 24 24"
-                     xmlns="http://www.w3.org/2000/svg"
-                   >
-                     <path
-                       strokeLinecap="round"
-                       strokeLinejoin="round"
-                       strokeWidth="2"
-                       d="M17 8l4 4m0 0l-4 4m4-4H3"
-                     ></path>
-                   </svg>
-                 </a>
-                )}
-              </div>
-            </li>
-          ))}
-        </ul>  
-
-        <div className='p-2 text-white bg-pink-700 border rounded-lg '>
-          <strong className="mb-4 text-2xl font-bold uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ ({pagination?.count || 0})</strong>
-        </div>
-    
-        <ul className="grid grid-cols-1 gap-4 shadow-lg md:grid-cols-2 lg:grid-cols-2">
-          {
-          items.map((product: Product, index: number) => (
-            <li key={ index } className="p-4 rounded-lg ">
-              <div className='p-2 mb-2 text-white bg-blue-700 rounded-md shadow-xl/30'>
-                <strong className="mb-2 text-xl font-semibold uppercase">{product.title}</strong>
-              </div>
-              {/* <div 
-                className="mb-4 text-gray-600"
-                dangerouslySetInnerHTML={{ __html: product.description }}
-              /> */}
-              <div className="space-x-2 space-y-2">
-
-
-                {product.videoLink && (
-
-                  <VideoEmbed url={ product.videoLink } />
-                  // <a
-                  //   href={product.videoLink}
-                  //   target="_blank"
-                  //   rel="noopener noreferrer"
-                  //   className="block text-blue-600"
-                  // >
-                  //   Watch Video
-                  // </a>
-                )}
-
-                {
-                  !product.videoLink && product.description && ( 
-                    <div className='p-4 border-4 border-blue-800 rounded-lg shadow-2xl bg-amber-100' dangerouslySetInnerHTML = {{ __html: product.description }}   />
-                  )
-                } 
-
-                {product.affiliateLink && (
-                 <a
-                  href={product.affiliateLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-amber-500 to-red-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
-                >
-                  {/* Animated border */}
-                  <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-amber-500 to-red-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
+  
+          <div className='flex justify-center m-4 text-sm'> 
+            <div className="form-container-subscription"> 
+              <form id="subscriptionForm">
+                  <label htmlFor="name">Name / Tên </label>
+                  <input type="text" id="name" name="name" required />
+                  <label htmlFor="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
                   
-                  {/* Button content */}
-                  <span className="relative tracking-wider">
-                    MUA NGAY - Limited Offer
-                  </span>
-                  
-                  {/* Animated arrow icon */}
-                  <svg
-                    className="relative w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <label htmlFor="phone">phone / Số điện thoại </label>
+                  <input type="text" id="phone" name="phone" required /> 
+
+                  <input type="submit" value="Đăng ký nhận mã khuyển mãi" onClick={ handleClick } />
+              </form>
+              <div className="message" id="message"></div>
+            </div>
+          </div> 
+
+          <div className='p-2 text-white bg-pink-700 border rounded-lg '>
+            <strong className="mb-4 text-2xl font-bold uppercase">Voucher miễn phí vô hạn  </strong>
+          </div>
+
+          <ul className="shadow-lg ">
+            {
+            vouchers.map((v: Voucher, index: number) => (
+              <li key={ index } className="p-4 rounded-lg ">
+                <div className='p-2 mb-2 text-white bg-blue-700 rounded-md shadow-xl/30'>
+                  <strong className="mb-2 font-semibold uppercase text-md">{v.title}</strong>
+                </div> 
+                <div className="space-x-2 space-y-2"> 
+                  {v.videoLink && ( 
+                    <VideoEmbed url={ v.videoLink } /> 
+                  )}
+
+                  {
+                    !v.videoLink && v.description && ( 
+                      <div className='p-4 border-4 border-blue-800 rounded-lg shadow-2xl bg-amber-100' dangerouslySetInnerHTML = {{ __html: v.description }}   />
+                    )
+                  } 
+  
+                {v.voucherLink && (
+                    <a
+                    href={v.voucherLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-green-500 to-blue-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    ></path>
-                  </svg>
-                </a>
-                )} 
-
-              {product.voucherLink && (
-                   <a
-                   href={product.voucherLink}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-green-500 to-blue-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
-                 >
-                   {/* Animated border */}
-                   <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-green-500 to-blue-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
-                   
-                   {/* Button content */}
-                   <span className="relative tracking-wider">
-                     Lấy Voucher - Get Free Voucher
-                   </span>
-                   
-                   {/* Animated arrow icon */}
-                   <svg
-                     className="relative w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1"
-                     fill="none"
-                     stroke="currentColor"
-                     viewBox="0 0 24 24"
-                     xmlns="http://www.w3.org/2000/svg"
-                   >
-                     <path
-                       strokeLinecap="round"
-                       strokeLinejoin="round"
-                       strokeWidth="2"
-                       d="M17 8l4 4m0 0l-4 4m4-4H3"
-                     ></path>
-                   </svg>
-                 </a>
-                )}
-              </div>
-            </li>
-          ))}
-        </ul>
-
-        {status === 'loading' && (
-          <div className="flex justify-center my-8">
-            <div className="w-8 h-8 border-b-2 border-gray-600 rounded-full animate-spin"> </div>
+                    {/* Animated border */}
+                    <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-green-500 to-blue-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
+                    
+                    {/* Button content */}
+                    <span className="relative tracking-wider">
+                      Lấy Mã/Free Voucher
+                    </span>
+                    
+                    {/* Animated arrow icon */}
+                    <svg
+                      className="relative w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      ></path>
+                    </svg>
+                  </a>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>  
+        </div> 
+        
+        <div className='grow-8'>    
+          <div className='p-2 text-white bg-pink-700 border rounded-lg '>
+            <strong className="mb-4 text-2xl font-bold uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ ({pagination?.count || 0})</strong>
           </div>
-        )}
+      
+          <ul className="grid grid-cols-1 gap-4 shadow-lg lg:grid-cols-2">
+            {
+            items.map((product: Product, index: number) => (
+              <li key={ index } className="p-4 rounded-lg ">
+                <div className='p-2 mb-2 text-white bg-blue-700 rounded-md shadow-xl/30'>
+                  <strong className="mb-2 text-lg font-semibold uppercase">{product.title}</strong>
+                </div>
+                {/* <div 
+                  className="mb-4 text-gray-600"
+                  dangerouslySetInnerHTML={{ __html: product.description }}
+                /> */}
+                <div className="space-x-2 space-y-2">
 
-        {status === 'failed' && (
-          <div className="my-4 text-center text-red-500">Error: {error}</div>
-        )}
 
-        {pagination?.totalPage === page && items.length > 0 && (
-          <div className="mt-8 text-center text-gray-500">          
-            Đã hiển thị sản phẩm cuối cùng!
-          </div>
-        )}
+                  {product.videoLink && (
+
+                    <VideoEmbed url={ product.videoLink } />
+                    // <a
+                    //   href={product.videoLink}
+                    //   target="_blank"
+                    //   rel="noopener noreferrer"
+                    //   className="block text-blue-600"
+                    // >
+                    //   Watch Video
+                    // </a>
+                  )}
+
+                  {
+                    !product.videoLink && product.description && ( 
+                      <div className='p-4 border-4 border-blue-800 rounded-lg shadow-2xl bg-amber-100' dangerouslySetInnerHTML = {{ __html: product.description }}   />
+                    )
+                  } 
+
+                  {product.affiliateLink && (
+                  <a
+                    href={product.affiliateLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-amber-500 to-red-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
+                  >
+                    {/* Animated border */}
+                    <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-amber-500 to-red-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
+                    
+                    {/* Button content */}
+                    <span className="relative tracking-wider">
+                      MUA NGAY - Limited Offer
+                    </span>
+                    
+                    {/* Animated arrow icon */}
+                    <svg
+                      className="relative w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      ></path>
+                    </svg>
+                  </a>
+                  )} 
+
+                {product.voucherLink && (
+                    <a
+                    href={product.voucherLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white uppercase transition-all duration-300 transform shadow-lg bg-gradient-to-r from-green-500 to-blue-500 rounded-xl hover:scale-105 hover:shadow-xl hover:shadow-amber-100 hover:bg-gradient-to-br group"
+                  >
+                    {/* Animated border */}
+                    <span className="absolute inset-0 transition-all duration-300 rounded-xl -z-10 bg-gradient-to-r from-green-500 to-blue-500 blur-sm group-hover:blur-md group-hover:opacity-75"></span>
+                    
+                    {/* Button content */}
+                    <span className="relative tracking-wider">
+                      Lấy Voucher - Get Free Voucher
+                    </span>
+                    
+                    {/* Animated arrow icon */}
+                    <svg
+                      className="relative w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      ></path>
+                    </svg>
+                  </a>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+
+          {status === 'loading' && (
+            <div className="flex justify-center my-8">
+              <div className="w-8 h-8 border-b-2 border-gray-600 rounded-full animate-spin"> </div>
+            </div>
+          )}
+
+          {status === 'failed' && (
+            <div className="my-4 text-center text-red-500">Error: {error}</div>
+          )}
+
+          {pagination?.totalPage === page && items.length > 0 && (
+            <div className="mt-8 text-center text-gray-500">          
+              Đã hiển thị sản phẩm cuối cùng!
+            </div>
+          )}  
+
+        </div>
       </div>
+      
+     
+      
+
 
       <div className="relative h-[600px] mb-8 mt-8">
         <Image
