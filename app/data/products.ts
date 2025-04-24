@@ -4,7 +4,6 @@ export const productsData = {
         "totalPage": 1
     },
     "data": [
-
         {
             "id": 19,
             "categoryId": 1,

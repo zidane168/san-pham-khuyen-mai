@@ -42,7 +42,18 @@ export default function ProductsPage() {
   const { items, status, error, pagination } = useSelector((state: any) => state.products);
   const { vouchers } = useSelector((state: any) => state.vouchers);
   const [page, setPage] = useState(1);
+
+  // search step1
+  const [ query, setQuery ] = useState('');
+
+  // search step2: filter (call api)
+  const filterItems = items.filter( (product: Product )  => product.title.toLowerCase().includes(query.toLowerCase())  || product.description.toLowerCase().includes(query.toLowerCase()) )
   
+  // search step3: handleSearch
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setQuery(event.target.value)
+  }
+
   const initialLoadDone = useRef(false);
 
   // Modified fetch function with limit
@@ -131,9 +142,18 @@ export default function ProductsPage() {
           /> 
       </div>
 
+      <input
+            type="text"
+            value={query}
+            onChange={handleSearch}
+            className="w-full p-2 bg-white border-none rounded-md shadow-lg"
+            placeholder="Tìm sản phẩm / Search products"
+          />
+      
+
       <div className="flex flex-col gap-2 p-4 mx-auto container-lg lg:flex-row">
-        <div className='grow-2'> 
-          <div className='p-2 text-white bg-pink-700 border rounded-lg '>
+        <div className={ filterItems.length == 0 ? "max-w-[450px]" : ""  } > 
+          <div className='p-2 text-white bg-pink-700 border rounded-lg'>
             <strong className="mb-4 text-2xl font-bold">NHẬN MÃ MIỄN PHÍ/GET FREE</strong>
           </div>
   
@@ -213,37 +233,33 @@ export default function ProductsPage() {
             ))}
           </ul>  
         </div> 
+
+
         
-        <div className='grow-8'>    
+        <div className='lg:grow-8'>    
           <div className='p-2 text-white bg-pink-700 border rounded-lg '>
-            <strong className="mb-4 text-2xl font-bold uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ ({pagination?.count || 0})</strong>
-          </div>
-      
+            <strong className="mb-4 text-2xl font-bold uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ ({filterItems?.count || 0})</strong>
+          </div> 
+
+          { filterItems.length == 0 &&  ( 
+              <div className="text-[20px] text-blue-700 font-bold flex flex-col h-full p-2 mt-2 text-center bg-white rounded-md">
+                <div> KHÔNG TÌM THẤY SẢN PHẨM PHÙ HỢP </div>
+                <div> PRODUCTS NOT BE FOUND </div>
+              </div> 
+            ) 
+          }
+
           <ul className="grid grid-cols-1 gap-4 shadow-lg lg:grid-cols-2">
             {
-            items.map((product: Product, index: number) => (
+
+            filterItems.map((product: Product, index: number) => (
               <li key={ index } className="p-4 rounded-lg ">
                 <div className='p-2 mb-2 text-white bg-blue-700 rounded-md shadow-xl/30'>
                   <strong className="mb-2 text-lg font-semibold uppercase">{product.title}</strong>
-                </div>
-                {/* <div 
-                  className="mb-4 text-gray-600"
-                  dangerouslySetInnerHTML={{ __html: product.description }}
-                /> */}
-                <div className="space-x-2 space-y-2">
-
-
-                  {product.videoLink && (
-
+                </div> 
+                <div className="space-x-2 space-y-2">  
+                  {product.videoLink && ( 
                     <VideoEmbed url={ product.videoLink } />
-                    // <a
-                    //   href={product.videoLink}
-                    //   target="_blank"
-                    //   rel="noopener noreferrer"
-                    //   className="block text-blue-600"
-                    // >
-                    //   Watch Video
-                    // </a>
                   )}
 
                   {
@@ -340,11 +356,7 @@ export default function ProductsPage() {
 
         </div>
       </div>
-      
-     
-      
-
-
+        
       <div className="relative h-[600px] mb-8 mt-8">
         <Image
           src="/images/footer.jpg"
