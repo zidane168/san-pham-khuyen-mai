@@ -233,8 +233,6 @@ export default function ProductsPage() {
             ))}
           </ul>  
         </div> 
-
-
         
         <div className='lg:grow-8'>    
           <div className='p-2 text-white bg-pink-700 border rounded-lg '>
