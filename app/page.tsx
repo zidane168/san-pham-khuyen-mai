@@ -238,7 +238,7 @@ export default function ProductsPage() {
         
         <div className='lg:grow-8'>    
           <div className='p-2 text-white bg-pink-700 border rounded-lg '>
-            <strong className="mb-4 text-2xl font-bold uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ ({filterItems?.count || 0})</strong>
+            <strong className="mb-4 text-2xl font-bold uppercase">Tiện ích gia đình - Tiện Ích Không Ngờ </strong>
           </div> 
 
           { filterItems.length == 0 &&  ( 
