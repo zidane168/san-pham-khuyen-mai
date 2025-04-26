@@ -10,7 +10,7 @@ export const productsData = {
             "videoLink": "https://youtube.com/embed/-Hn3DzZ4sX0",
             "affiliateLink": "https://shorten.asia/QcNdYDs6",
             "voucherLink": "",
-            "title": 'Giá Đỡ Điện Thoại Vs Chân Đế Cố Định Lựa Chọn Nào Tốt Nhất Cho Phát Sóng Trực Tiếp Ngoài Trời - Tiện Ích Không Ngờ',
+            "title": 'Giá Đỡ Điện Thoại có Chân Đế Cố Định Lựa Chọn Nào Tốt Nhất Cho Phát Sóng Trực Tiếp Ngoài Trời - Tiện Ích Không Ngờ',
             "description": " ", 
             "enabled": true,
             "created": "2025-04-26T15:09:59.828Z"
