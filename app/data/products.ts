@@ -7,6 +7,17 @@ export const productsData = {
         {
             "id": 21,
             "categoryId": 1, 
+            "videoLink": "https://youtube.com/embed/P9vszPe6ERo",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Hướng dẫn lắp đặt Kệ Để CPU là Giải Pháp Tiết Kiệm Không Gian Cho Bạn - Tiện Ích Không Ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-04-26T15:09:59.828Z"
+        }, 
+        {
+            "id": 21,
+            "categoryId": 1, 
             "videoLink": "https://youtube.com/embed/-Hn3DzZ4sX0",
             "affiliateLink": "https://shorten.asia/QcNdYDs6",
             "voucherLink": "",
