@@ -3,9 +3,7 @@ export const productsData = {
         "count": 11,
         "totalPage": 1
     },
-    "data": [
-
-
+    "data": [ 
         {
             "id": 22,
             "categoryId": 1, 
