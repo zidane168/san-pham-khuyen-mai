@@ -9,7 +9,7 @@ export const productsData = {
         {
             "id": 22,
             "categoryId": 1, 
-            "videoLink": "https://youtube.com/shorts/nMgeX0Taebg",
+            "videoLink": "https://youtube.com/embed/nMgeX0Taebg",
             "affiliateLink": "https://shorten.asia/QcNdYDs6",
             "voucherLink": "",
             "title": 'Giá Treo Đồ Nam Châm Trong Nhà Bếp - Instantly Improve Your Kitchen Storage with Magnetic Solutions - Tiện Ích Không Ngờ',
