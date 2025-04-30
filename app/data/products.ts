@@ -5,6 +5,17 @@ export const productsData = {
     },
     "data": [ 
         {
+            "id": 23,
+            "categoryId": 1, 
+            "videoLink": "https://youtube.com/embed/Ok4zR0apTic",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Vải bọc giảm tiếng ồn chân ghế tự dính - Foot Wrap Chair - Tiện Ích Không Ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-04-30T14:09:59.828Z"
+        }, 
+        {
             "id": 22,
             "categoryId": 1, 
             "videoLink": "https://youtube.com/embed/nMgeX0Taebg",
