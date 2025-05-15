@@ -109,7 +109,7 @@ export default function ProductsPage() {
         event.preventDefault();
         // Ensure event.target is an HTMLFormElement
         const target = event.target as HTMLFormElement;
-        const formData = new FormData(target);
+        const formData = new FormData(target); 
        
         fetch('https://script.google.com/macros/s/AKfycbwHTz3tbGaHS1AoAt-nNN-HFMKanqEc1Fs6txZGrk7OnpCO3Gg8LzGQS7OhWzj6YxfZCA/exec', {
           method: 'POST',

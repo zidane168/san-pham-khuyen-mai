@@ -4,6 +4,42 @@ export const productsData = {
         "totalPage": 1
     },
     "data": [ 
+
+        {
+            "id": 34,
+            "categoryId": 1, 
+            "videoLink": "https://youtube.com/embed/mSIOL0SrrVA",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Quạt AI mini phun sương nhiều chế độ làm mát - Small fan silent electric fan Tiện Ích Không Ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-05-07T10:09:59.828Z"
+        }, 
+        {
+            "id": 33,
+            "categoryId": 1, 
+            "videoLink": "https://youtube.com/embed/I_34G4sxl6I",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Bạn Có Biết Máy Hút Bụi Mini Cầm Tay Không Dây Với Lực Hút Cực Mạnh? - Tiện ích không ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-05-07T10:09:59.828Z"
+        }, 
+
+        {
+            "id": 32,
+            "categoryId": 1, 
+            "videoLink": "https://youtube.com/embed/C41bSHRry9E",
+            "affiliateLink": "https://shorten.asia/QcNdYDs6",
+            "voucherLink": "",
+            "title": 'Quạt sạc pin mini có tích hợp đèn ngủ - Tiện Ích Không Ngờ',
+            "description": " ", 
+            "enabled": true,
+            "created": "2025-05-07T10:09:59.828Z"
+        }, 
+        // ------------------------------------------------------------------------------------------
         {
             "id": 31,
             "categoryId": 1, 
