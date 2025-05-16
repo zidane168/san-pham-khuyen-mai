@@ -71,12 +71,12 @@ export default function app() {
           <div className='flex justify-center m-4 text-sm'> 
             <div className="form-container-subscription"> 
               <form id="subscriptionForm">
-                  <label htmlFor="name">Name / Tên </label>
+                  <label htmlFor="name">Name / Tên: </label>
                   <input type="text" id="name" name="name" required />
                   <label htmlFor="email">Email:</label>
                   <input type="email" id="email" name="email" required />
                   
-                  <label htmlFor="phone">phone / Số điện thoại </label>
+                  <label htmlFor="phone">Phone / Số điện thoại: </label>
                   <input type="text" id="phone" name="phone" required /> 
 
                   <div className="text-center">

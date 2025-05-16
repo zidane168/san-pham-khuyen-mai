@@ -94,7 +94,7 @@ const ProductList = (  ) => {
     }
   }
 
-  const handleReset = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleReset = (event: React.MouseEvent<HTMLButtonElement>) => {
     setSearchItem('')
     fetchProducts(0, null);
   } 
