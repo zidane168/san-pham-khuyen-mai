@@ -43,7 +43,7 @@ body {
 }
 .form-container-subscription input[type="text"],
 .form-container-subscription input[type="email"] {
-  width: 92%;
+  width: 100%;
   padding: 10px;
   margin: 5px 0 15px;
   border: 1px solid #ddd;
@@ -55,7 +55,7 @@ body {
   border-color: #007bff;
   outline: none;
 }
-.form-container-subscription input[type="submit"] {
+.form-container-subscription button[type="submit"] {
   width: 100%;
   padding: 10px;
   border: none;
@@ -66,9 +66,14 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.form-container-subscription input[type="submit"]:hover {
-  background-color: #0056b3;
+.form-container-subscription button[type="submit"]:hover {  
+  background-color: #0056b3; 
 }
+
+.form-container-subscription button[type="submit"]:disabled { 
+  background-color: #88939abc; 
+}
+ 
 .form-container-subscription .message {
   text-align: center;
   margin-top: 15px;
